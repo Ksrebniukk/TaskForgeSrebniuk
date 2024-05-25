@@ -6,7 +6,7 @@
 
 ### Запит на створення проєкту
 
-![create_project.pnj](https://imgur.com/IQpSdWP)
+![create_project.png](https://imgur.com/IQpSdWP)
 
 ### Відповідь на створення проєкту
 

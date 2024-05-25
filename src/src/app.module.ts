@@ -7,6 +7,11 @@ import { ProjectByIdPipe } from './ProjectByIdPipe';
 
 @Module({
   controllers: [ProjectController],
-  providers: [ProjectService, ProjectRepository, PrismaService, ProjectByIdPipe],
+  providers: [
+    ProjectService,
+    ProjectRepository,
+    PrismaService,
+    ProjectByIdPipe,
+  ],
 })
 export class AppModule {}

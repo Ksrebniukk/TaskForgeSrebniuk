@@ -4,9 +4,9 @@ import { Status } from '@prisma/client';
 export class CreateProjectDto {
   @IsNotEmpty()
   @IsString()
-    name: string;
+  name: string;
 
   @IsNotEmpty()
   @IsEnum(Status)
-    status: Status;
+  status: Status;
 }

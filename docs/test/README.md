@@ -10,31 +10,31 @@
 
 ### Відповідь на створення проєкту
 
-![create_project_response.jpg](https://imgur.com/1jPdpFq)
+![](./create_project_response.jpg)
 
 ### Спроба створити проєкт з помилковим часом
 
-![create_project_exception_data.jpg](https://imgur.com/irqdCjz)
+![](./create_project_exception_title.jpg)
 
 ### Спроба створити проєкт з вже існуючою назвою
 
-![create_project_exception_title.jpg](https://imgur.com/PT8iOvT)
+![](https://imgur.com/PT8iOvT)
 
 ## Отримання проєкту (метод GET)
 
 ### Успішне отримання проєкту
 
-![get_project.jpg](https://imgur.com/3PnubPx)
+![](./get_project.jpg)
 
 ### Помилка в отриманні проєкту
 
-![get_project_exeption_invalid_id.jpg](https://imgur.com/YCDzj5j)
+![](./get_project_exeption_invalid_id.jpg)
 
 ## Оновлення проєкту (метод PATCH)
 
 ### Запит на оновлення проєкту
 
-![patch_project.jpg(https://imgur.com/lhGBv66)
+![](./patch_project.jpg)
 
 ### Відповідь на оновлення проєкту
 

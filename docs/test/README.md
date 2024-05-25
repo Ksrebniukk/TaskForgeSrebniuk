@@ -38,18 +38,18 @@
 
 ### Відповідь на оновлення проєкту
 
-![patch_project_response.jpg](https://imgur.com/jXD32G4)
+![](./patch_project_response.jpg)
 
 ### Помилка в оновленні проєкту
 
-![patch_project_exception_invalid_id.jpg](https://imgur.com/ASPa4sr)
+![](./patch_project_exception_invalid_id.jpg)
 
 ## Видалення користувача (метод DELETE)
 
 ### Успішне видалення проєкту
 
-![delete_project.jpg](https://imgur.com/tmQo1FY)
+![](./delete_project.jpg)
 
 ### Видалення неіснуючого проєкту
 
-![delete_project_exeption_invalid_id.jpg](https://imgur.com/779FRi2)
+![](./delete_project_exeption_invalid_id.jpg)

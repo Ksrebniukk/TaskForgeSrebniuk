@@ -3,13 +3,13 @@ home: true
 actionText: Розпочати →
 actionLink: /intro/
 
-footer: "ECL 2.0 Licensed | Copyright © 2024 Tsuria Oleh"
+footer: "ECL 2.0 Licensed | Copyright © 2024 Сребнюк Катерина"
 ---
 
 
-**Виконав:** 
+**Виконала:** 
 
-*студент 2-го курсу, групи ІО-21* <span padding-right:5em></span> **Олег Цуря** <a href="https://t.me/fogoog" target="_blank"> Telegram </a>
+*студентка 2-го курсу, групи ІО-21* <span padding-right:5em></span> **Сребнюк Катерина** <a href="https://t.me/srebniukk" target="_blank"> Telegram </a>
 
 
 **Керівник**

@@ -6,7 +6,7 @@
 
 ### Запит на створення проєкту
 
-![create_project.png](https://imgur.com/IQpSdWP)
+![create_project.png](/Ksrebniukk/TaskForgeSrebniuk/blob/master/docs/test/create_project.png)
 
 ### Відповідь на створення проєкту
 

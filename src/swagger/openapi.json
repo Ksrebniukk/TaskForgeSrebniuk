@@ -1,0 +1,165 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API для управління проектами",
+    "version": "1.0.0",
+    "description": "Це API призначене для керування проектами."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Проекти",
+      "description": "Операції з проектами"
+    }
+  ],
+  "paths": {
+    "/projects": {
+      "post": {
+        "summary": "Створити проект",
+        "tags": ["Проекти"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Проект успішно створений"
+          }
+        }
+      },
+      "get": {
+        "summary": "Отримати всі проекти",
+        "tags": ["Проекти"],
+        "responses": {
+          "200": {
+            "description": "Список проектів",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/projects/{projectId}": {
+      "get": {
+        "summary": "Отримати проект за ID",
+        "tags": ["Проекти"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "description": "ID проекту",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Інформація про проект",
+            "content": {
+              "application/json": {
+            }
+          }
+        }
+      },
+      "patch": {
+        "summary": "Оновити проект за ID",
+        "tags": ["Проекти"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "description": "ID проекту",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Проект успішно оновлено"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Видалити проект за ID",
+        "tags": ["Проекти"],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "description": "ID проекту",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Проект успішно видалено"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateProjectDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["COMPLETED", "IN_PROGRESS"]
+          }
+        },
+        "required": ["name", "status"]
+      },
+      "UpdateProjectDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["COMPLETED", "IN_PROGRESS"]
+          }
+        }
+      },
+      "Project": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

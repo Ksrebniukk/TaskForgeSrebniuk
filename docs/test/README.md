@@ -6,7 +6,7 @@
 
 ### Запит на створення проєкту
 
-![create_project.png](/master/docs/test/create_project.png)
+![](/create_project.png)
 
 ### Відповідь на створення проєкту
 
